@@ -22,7 +22,7 @@ st.subheader("Parameters")
 # property count put to max 21650
 def user_input_features():
     rooms = st.slider('No. of bedrooms', 1.0, 3.0, 8.0, step=1.0)
-    date = st.slider('Date of sale (YYYYMM)', max_value=datetime(2017,12,31),min_value=datetime(2016,1,1), format="YYYYMM")
+    date = st.slider('Date of sale (YYYYMM)', max_value=datetime(2018,12,31),min_value=datetime(2016,1,1), format="YYYYMM")
     distance = st.slider('Distance from Melbourne CBD (km)', 0.0, 9.75, 29.8)
     bathrooms = st.slider('No. of Bathrooms', 0.0, 1.0, 4.0, step=1.0)
     cars = st.slider('No. of carspots', 0.0, 2.0, 10.0, step=1.0)
